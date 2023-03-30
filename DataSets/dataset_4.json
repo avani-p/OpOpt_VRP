@@ -1,0 +1,62 @@
+{
+    "Nodes":{ 
+        "0":{
+            "Demand": "0",
+            "AllowedTime":"0",
+            "LatestTime":"0",
+            "X":"0",
+            "Y":"0"
+        },
+        "1":{
+            "Demand": "2",
+            "AllowedTime":"0.8",
+            "LatestTime":"1.2",
+            "X":"-7.03",
+            "Y":"-9.83"
+        },
+        "2":{
+            "Demand": "3",
+            "AllowedTime":"1",
+            "LatestTime":"2",
+            "X":"1.23",
+            "Y":"14.50"
+        },
+        "3":{
+            "Demand": "5",
+            "AllowedTime":"0.6",
+            "LatestTime":"1",
+            "X":"19.95",
+            "Y":"-24.65"
+        }
+    },
+
+    "Vehicles":{
+        "0":{
+            "Number":"3",
+            "Capacity":"12",
+            "HiringCost":"1200",
+            "Speed":"30",
+            "CostPerHour":"30"
+        },
+        "1":{
+            "Number":"3",
+            "Capacity":"8",
+            "HiringCost":"900",
+            "Speed":"40",
+            "CostPerHour":"25"
+        },
+        "2":{
+            "Number":"3",
+            "Capacity":"4",
+            "HiringCost":"600",
+            "Speed":"50",
+            "CostPerHour":"20"
+        }
+    },
+
+    "DecayRate":"0.05",
+    "MinAcceptableQuality":"0.8",
+    "QualityPenaltyCost":"500",
+    "TimePenaltyCost":"40",      
+    "PerDriverCost":"400"
+}

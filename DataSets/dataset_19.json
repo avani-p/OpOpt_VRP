@@ -1,0 +1,167 @@
+{
+    "Nodes":{ 
+        "0":{
+            "Demand": "0",
+            "AllowedTime":"0",
+            "LatestTime":"0",
+            "X":"0",
+            "Y":"0"
+        },
+        "1":{
+            "Demand": "6",
+            "AllowedTime":"3",
+            "LatestTime":"6.5",
+            "X":"4.42",
+            "Y":"-12.27"
+        },
+        "2":{
+            "Demand": "1",
+            "AllowedTime":"2.5",
+            "LatestTime":"3.5",
+            "X":"-26.88",
+            "Y":"-10.02"
+        },
+        "3":{
+            "Demand": "2",
+            "AllowedTime":"1.8",
+            "LatestTime":"6",
+            "X":"25.87",
+            "Y":"-1.98"
+        },
+        "4":{
+            "Demand": "2",
+            "AllowedTime":"4",
+            "LatestTime":"8",
+            "X":"13.72",
+            "Y":"8.89"
+        },
+        "5":{
+            "Demand": "1",
+            "AllowedTime":"3",
+            "LatestTime":"7",
+            "X":"14.27",
+            "Y":"-28.49"
+        },
+        "6":{
+            "Demand": "2",
+            "AllowedTime":"2.8",
+            "LatestTime":"7",
+            "X":"-26.20",
+            "Y":"20.53"
+        },
+        "7":{
+            "Demand": "2",
+            "AllowedTime":"5",
+            "LatestTime":"10",
+            "X":"21.63",
+            "Y":"3.54"
+        },
+        "8":{
+            "Demand": "1",
+            "AllowedTime":"1.8",
+            "LatestTime":"4",
+            "X":"26.06",
+            "Y":"21.25"
+        },
+        "9":{
+            "Demand": "2",
+            "AllowedTime":"4.3",
+            "LatestTime":"8.7",
+            "X":"29.06",
+            "Y":"-9.13"
+        },
+        "10":{
+            "Demand": "2",
+            "AllowedTime":"3.3",
+            "LatestTime":"5.6",
+            "X":"21.54",
+            "Y":"-3.24"
+        },
+        "11":{
+            "Demand": "2",
+            "AllowedTime":"2.1",
+            "LatestTime":"4.9",
+            "X":"17.13",
+            "Y":"-26.75"
+        },
+        "12":{
+            "Demand": "4",
+            "AllowedTime":"3",
+            "LatestTime":"7",
+            "X":"0.80",
+            "Y":"-19.37"
+        },
+        "13":{
+            "Demand": "5",
+            "AllowedTime":"2.9",
+            "LatestTime":"5.9",
+            "X":"-19.34",
+            "Y":"9.77"
+        },
+        "14":{
+            "Demand": "7",
+            "AllowedTime":"4.7",
+            "LatestTime":"9.2",
+            "X":"-6.08",
+            "Y":"-10.15"
+        },
+        "15":{
+            "Demand": "5",
+            "AllowedTime":"3.1",
+            "LatestTime":"5.3",
+            "X":"-21.96",
+            "Y":"23.91"
+        },
+        "16":{
+            "Demand": "5",
+            "AllowedTime":"1.9",
+            "LatestTime":"3.5",
+            "X":"-28.15",
+            "Y":"-22.91"
+        },
+        "17":{
+            "Demand": "5",
+            "AllowedTime":"4",
+            "LatestTime":"10",
+            "X":"26.35",
+            "Y":"-29.31"
+        },
+        "18":{
+            "Demand": "5",
+            "AllowedTime":"4.2",
+            "LatestTime":"9.2",
+            "X":"-11.92",
+            "Y":"2.40"
+        } 
+    },
+
+    "Vehicles":{
+        "0":{
+            "Number":"3",
+            "Capacity":"25",
+            "HiringCost":"1200",
+            "Speed":"30",
+            "CostPerHour":"30"
+        },
+        "1":{
+            "Number":"3",
+            "Capacity":"15",
+            "HiringCost":"900",
+            "Speed":"40",
+            "CostPerHour":"25"
+        },
+        "2":{
+            "Number":"3",
+            "Capacity":"10",
+            "HiringCost":"600",
+            "Speed":"50",
+            "CostPerHour":"20"
+        }
+    },
+
+    "DecayRate":"0.05",
+    "MinAcceptableQuality":"0.8",
+    "QualityPenaltyCost":"500",
+    "TimePenaltyCost":"40",      
+    "PerDriverCost":"400"
+}
