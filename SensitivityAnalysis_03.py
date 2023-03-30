@@ -222,7 +222,7 @@ def Demand_Sensitivity():
     for node in range(N):
        data['Nodes'][str(node)]['Demand'] =  og_demand[node]
 
-#Veh0Cost_Sensitivity()
+Veh0Cost_Sensitivity()
 Veh0TCost_Sensitivity()
-#Veh0Speed_Sensitivity()
-#Demand_Sensitivity()
+Veh0Speed_Sensitivity()
+Demand_Sensitivity()
